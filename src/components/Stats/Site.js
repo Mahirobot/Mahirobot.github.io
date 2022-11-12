@@ -9,7 +9,7 @@ const Stats = () => {
   const fetchData = useCallback(async () => {
     // request must be authenticated if private
     const res = await fetch(
-      'https://api.github.com/repos/Mahirobot/personal-site',
+      'https://api.github.com/repos/Mahirobot/Mahirobot.github.io',
     );
     const resData = await res.json();
     setResponseData(
