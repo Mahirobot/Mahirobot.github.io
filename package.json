@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Mahirobot/Mahirobot.github.io"
+    "url": "https://github.com/Mahirobot/Mahirobot.github.io/deployment/public/index.html"
   },
   "engines": {
     "node": ">=14.x"
