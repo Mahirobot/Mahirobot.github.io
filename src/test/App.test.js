@@ -33,6 +33,11 @@ const pages = [
     component: Projects,
   },
   {
+    route: '/publications',
+    heading: 'Publications',
+    component: Publications,
+  },
+  {
     route: '/stats',
     heading: 'Stats',
     component: Stats,

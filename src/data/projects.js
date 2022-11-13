@@ -1,47 +1,38 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'Automatic detection and recognition of Bengali Handwritten texts.',
+    subtitle: 'Bachelor\'s thesis',
+    image: '/images/projects/HBD.png',
+    date: '2021-11-20',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'Built a pipeline that takes in pdf/images of Bengali handwritten texts and gives a text file with digitized version of the text as output.'
+      + ' Collected and annotated a dataset with 303 documents.'
+      + ' Implemented image pre-processing, line segmentation, removal of overlapping lines, word detection and finally word recognition,'
+      + ' Achieved a recognition accuracy of 76%.',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: 'KiTs19 Challenge: Segmentation of kidney and kidney tumor',
+    subtitle: 'Academic project',
+    link: 'https://github.com/Mahirobot/kits-19-Kidney-and-Tumor-Segmentation-dump',
+    image: '/images/projects/kits19.gif',
+    date: '2020-12-12',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+      'Proposed a loss function that improves the segmentation result. '
+      + 'Images are in NifTI format. '
+      + 'Conducted multiple experiments, each using various techniques and different loss functions. '
+      + 'Model used: 3D Unet',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    title: 'Covid cases in Bangladesh',
+    subtitle: 'Visualization of the spread of Covid in Bangladesh.',
+    link: 'https://github.com/Mahirobot/Covid_cases-Bangladesh',
+    image: '/images/projects/covid_bd.gif',
+    date: '2020-09-20',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
-  },
-  {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+      'I scraped the population data and covid data for each region from the web. '
+      + 'I also fixed issues with the geojson map of Bangladesh that was available. '
+      + 'The data is available in my github page.',
   },
 ];
 

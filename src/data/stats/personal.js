@@ -25,13 +25,6 @@ const data = [
     value: <Age />,
   },
   {
-    key: 'cities',
-    label: 'Cities visited',
-    value: 6,
-    link:
-      'https://www.google.com/maps/d/embed?mid=1iBBTscqateQ93pWFVfHCUZXoDu8&z=2',
-  },
-  {
     key: 'location',
     label: 'Current city',
     value: 'Dhaka, Bangladesh',

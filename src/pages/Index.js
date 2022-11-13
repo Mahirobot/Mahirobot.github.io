@@ -22,10 +22,11 @@ const Index = () => (
         or you can check out my {' '}
         <Link to="/resume">resume</Link>, {' '}
         <Link to="/projects">projects</Link>, {' '}
+        <Link to="/publications">publications</Link>, {' '}
         view <Link to="/stats">site statistics</Link>, {' '}
         or <Link to="/contact">contact</Link> me.
       </p>
-      <p> Source available <a href="https://github.com/Mahirobot/personal-site">here</a>.</p>
+      <p> Source available <a href="https://github.com/Mahirobot/Mahirobot.github.io">here</a>.</p>
     </article>
   </Main>
 );

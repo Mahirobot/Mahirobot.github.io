@@ -23,7 +23,7 @@ const messages = [
   'please-work-for-us',
   'help',
   'admin',
-  'or-I-really-like-your-website',
+  'or-I-want-to-work-with-you',
   'thanks',
 ];
 
@@ -82,9 +82,9 @@ const EmailLink = ({ loopMessage }) => {
       onMouseEnter={() => setIsActive(false)}
       onMouseLeave={() => (idx < messages.length) && setIsActive(true)}
     >
-      <a href={validateText(message) ? `mailto:${message}@mldangelo.com` : ''}>
+      <a href={validateText(message) ? `mailto:${message}@mahirobot.github.io` : ''}>
         <span>{message}</span>
-        <span>@mldangelo.com</span>
+        <span>@mahirobot.github.io</span>
       </a>
     </div>
   );
