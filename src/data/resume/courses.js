@@ -1,7 +1,25 @@
 const courses = [
   {
-    title: 'Undergraduate Course List',
-    number: 'Major Elective: CSE 465, CSE 495(NLP), CSE 473,CSE 438',
+    title: 'Pattern Recognition',
+    number: 'CSE 465',
+    link: 'http://ece.northsouth.edu/undergraduate/academics/programs/bs-cse/',
+    university: 'NSU',
+  },
+  {
+    title: 'NLP',
+    number: 'CSE 495',
+    link: 'http://ece.northsouth.edu/undergraduate/academics/programs/bs-cse/',
+    university: 'NSU',
+  },
+  {
+    title: 'Theory of Computation',
+    number: 'CSE 473',
+    link: 'http://ece.northsouth.edu/undergraduate/academics/programs/bs-cse/',
+    university: 'NSU',
+  },
+  {
+    title: 'Data Communication and Network',
+    number: 'CSE 438',
     link: 'http://ece.northsouth.edu/undergraduate/academics/programs/bs-cse/',
     university: 'NSU',
   },
