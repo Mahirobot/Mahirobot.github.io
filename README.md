@@ -7,6 +7,6 @@ TO DO:
 5. Update src/data/projects.js
 6. Update src/data/resume/skills.js
 7. Install npm and deploy
-See: [mahirajalisha.com](https://mahirajalisha.com).
+See: [mahirajalisha.com](https://mahirobot.github.io/).
 
 To create your own portfolio website see: [MICHAEL D'ANGELO's repository](https://github.com/mldangelo/personal-site)
