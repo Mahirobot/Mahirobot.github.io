@@ -1,11 +1,11 @@
 {
   "name": "personal-site",
   "version": "4.0.0",
-  "homepage": "https://mahirajalisha.com/",
+  "homepage": "https://mahirobot.github.io/",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Mahirobot/personal-site"
+    "url": "https://github.com/Mahirobot/Mahirobot.github.io"
   },
   "engines": {
     "node": ">=14.x"
