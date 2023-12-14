@@ -29,7 +29,7 @@ const data = [
   {
     label: 'Work Experience - Academia',
     key: 'experience_Academia',
-    value: '3 years, 3 months',
+    value: '3 years, 4 months',
   },
   {
     label: 'Work Experience - Industry',
