@@ -10,7 +10,27 @@ const skills = [
   {
     title: 'SQL',
     competency: 3,
-    category: ['Coding'],
+    category: ['Coding', 'Database'],
+  },
+  {
+    title: 'mongoDB',
+    competency: 3,
+    category: ['Database'],
+  },
+  {
+    title: 'Firebase',
+    competency: 2,
+    category: ['Database'],
+  },
+  {
+    title: 'noSQL',
+    competency: 3,
+    category: ['Coding', 'Database'],
+  },
+  {
+    title: 'postgreSQL',
+    competency: 3,
+    category: ['Coding', 'Database'],
   },
   {
     title: 'C++',
